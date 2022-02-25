@@ -1,0 +1,19 @@
+.main-screen {
+    text-align: center;
+}
+
+.main-screen video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.main-screen .preview-info {
+    height: 90vh;
+    color: white;
+    text-align: left;
+    width: 200px;
+}
+

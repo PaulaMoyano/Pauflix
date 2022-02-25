@@ -1,0 +1,9 @@
+.movie-list-item {
+    width: 100%;
+    border-radius: 0.2vw;
+    line-height: 0;
+    overflow: auto;
+}
+.movie-list-item img {
+    width: 100%;
+}

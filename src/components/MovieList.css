@@ -1,0 +1,15 @@
+.movie-list .swiper:not(:hover) .swiper-button-prev {
+    display: none;
+}
+
+.movie-list .swiper:not(:hover) .swiper-button-next {
+    display: none;
+}
+
+.movie-list .swiper-button-next {
+    color: #d80ece;
+}
+
+.movie-list .swiper-button-prev {
+    color: #d80ece;
+}
