@@ -1,20 +1,12 @@
-import { useEffect, useRef } from "react"
+import { useRef } from "react"
 import MovieList from "./MovieList"
 import trailer from "../assets/trailer.mp4"
-import jurassicParkCover from "../assets/jurassic_park.jpg"
+
 
 import "./MainScreen.css"
 
 const MainScreen = () => {
     const ref = useRef(null)
-
-    // useEffect(() => {
-    //     if (ref && ref.current) {
-    //         ref.current.addEventListener('ended',function(){
-    //             ref.current.src=jurassicParkCover;
-    //         });
-    //     }
-    // }, [])
 
     const onClick = () => ref.current.muted = !ref.current.muted
 
